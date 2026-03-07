@@ -1,1 +1,1 @@
-
+fastapi uvicorn[standard] numpy python-multipart
