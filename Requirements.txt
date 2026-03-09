@@ -1,1 +1,4 @@
-fastapi uvicorn[standard] numpy python-multipart
+fastapi  
+uvicorn[standard] 
+numpy 
+python-multipart
