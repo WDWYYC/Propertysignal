@@ -222,16 +222,16 @@ class FullAnalysisRequest(BaseModel):
     """Convenience endpoint — runs all three algorithms in one call."""
     purchase_price: float
     sqft: float
-    bedrooms: int
+    bedrooms: float
     bathrooms: float
     property_type: str = "single_family"
     market_tier: str = "mid_cost"
-    year_built: Optional[int] = None
+    year_built: Optional[float] = None
     has_garage: bool = False
     has_pool: bool = False
     down_payment_pct: float = 0.20
     interest_rate: float = 0.07
-    loan_term_years: int = 30
+    loan_term_years: float = 30
     annual_appreciation_rate: float = 0.04
     hold_years: int = 5
     monthly_hoa: float = 0.0
